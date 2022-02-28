@@ -1,0 +1,165 @@
+header{
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Lato', sans-serif;
+}
+#HeaderBackGround{
+    position: fixed;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 80;
+    box-shadow: 0 10px 20px;
+    text-align: center;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+#HeaderMenu{
+    margin: 0 auto;
+    /* top: 0%; */
+    bottom: 10%;
+    /* background-color: rgba(0, 255, 0, 0.08); */
+    /* z-index: 81; */
+}
+#HeaderLogo{
+    margin: 0 auto;
+    top: 0%;
+    /* background-color: rgba(255, 0, 0, 0.1); */
+    /* z-index: 82; */
+    border-bottom: solid 1px rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#IconTest{
+    color: white;
+    opacity: 60%;
+    /* align-items: center; */
+}
+#ServiceName{
+    color: white;
+    opacity: 60%;
+}
+#HeaderAction{
+    margin: 0 auto;
+    position: relative;
+    /* top: 25%; */
+    /* background-color: rgba(0, 0, 255, 0.1); */
+    /* z-index: 82; */
+}
+#UploadDiv{
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#UploadIcon{
+    color: white;
+    opacity: 60%;
+    cursor: pointer;
+}
+#UploadIconInput{
+    background-color: white;
+    opacity: 0;
+    /* cursor: pointer; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+#Upload{
+    color: white;
+    opacity: 60%;
+    cursor: pointer;
+}
+#DownloadIcon{
+    color: white;
+    opacity: 60%;
+    cursor: pointer;
+}
+#Download{
+    color: white;
+    opacity: 60%;
+    cursor: pointer;
+}
+#HeaderPlayBack{
+    margin: 0 auto;
+    top: 40%;
+    /* background-color: rgba(255, 0, 255, 0.1); */
+    /* z-index: 82; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#PlayIcon{
+    color: white;
+    opacity: 60%;
+    cursor: pointer;
+}
+#WaveDiv{
+    position: relative;
+    
+}
+.Wave{
+    position: relative;
+    border-style: dotted;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    opacity: 45%;
+    display: flex;
+    /* flex: auto; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: hidden; */
+    color: white;
+    transition: .3s;
+}
+.WaveDragover{
+    border-color: skyblue;
+    color: skyblue;
+    border-radius: 40px;
+    opacity: 60%;
+    transition: .3s;
+}
+#WaveText{
+    margin: 0%;
+}
+#WaveSelect{
+    margin: 0.8%;
+    border-style: solid;
+    /* border-color: white; */
+    border-width: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#WaveSelectInput{
+    position: absolute;
+    opacity: 0;
+    background-color: white;
+    top: 50%;
+}
+#HeaderDragBar{
+    margin: 0 auto;
+    /* top: 90%; */
+    bottom: 0%;
+    z-index: 85;
+    position: absolute;
+    /* background-color: rgba(0, 255, 0, 0.08); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#ReorderIcon{
+    color: white;
+    opacity: 60%;
+    user-select: none;
+    cursor: pointer;
+}

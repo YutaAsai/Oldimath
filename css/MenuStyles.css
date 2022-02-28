@@ -1,0 +1,29 @@
+nav{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    display: flex;
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0%;
+}
+.HumburgerIcon{
+    top: 1%;
+    left: 1%;
+    color: white;
+    opacity: 60%;
+    z-index: 89;
+    cursor: pointer;
+}
+.MenuBackGround{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.35);
+    z-index: 90;
+    transform: translateX(-100%);
+    transition: .3s;
+    /* transition-delay: .6s; */
+}
+.MenuBackGroundActive{
+    transform: translateX(0%);
+    transition: .3s;
+}

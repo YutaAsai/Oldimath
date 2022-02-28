@@ -1,0 +1,144 @@
+footer{
+    position: absolute;
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+footer > div{
+    position: fixed;
+    z-index: 90;
+}
+/* フッター背景 */
+.FooterBackGround{
+    position: fixed;
+    backdrop-filter: blur(14px);
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 90;
+    transform: translateY(100%);
+    transition: .3s;
+    transition-delay: .6s;
+}
+.FooterBackGroundActive{
+    transform: translateY(0%);
+    transition: .3s;
+}
+/* フッターオープンボタン */
+.FooterButton{
+    /* position: fixed; */
+    cursor: pointer;
+    z-index: 95;
+    border-radius: 50%;
+    border-width: 1.8px;
+    border-style: solid;
+    border-color: white;
+    opacity: 60%;
+    transform: translateX(0%);
+    transition: .3s;
+    transition-delay: .7s;
+}
+.FooterButtonActive{
+    transform: translateX(120%);
+    transition: .3s;
+    transition-delay: .1s;
+}
+/* フッターインプット */
+.FooterInput{
+    /* z-index: 0; */
+    border-radius: 10%;
+    border-width: 1.8px;
+    border-style: solid;
+    border-color: white;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .5s;
+}
+.FooterInputActive{
+    z-index: 95;
+    opacity: 0.6;
+    transition: .3s;
+    transition-delay: .5s;
+}
+/* フッターディストーション */
+.FooterDistortion{
+    /* z-index: 95; */
+    cursor: pointer;
+    pointer-events: none;
+    border-radius: 50%;
+    border-width: 1.8px;
+    border-style: solid;
+    border-color: white;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .4s;
+}
+.FooterDistortionActive{
+    pointer-events: all;
+    z-index: 95;
+    opacity: 0.6;
+    transition: .3s;
+    transition-delay: .4s;
+}
+.FooterDistortionON{
+    background-color: white;
+}
+.FooterDistortionON > text{
+    background-color: white;
+    /* color: black; */
+    -webkit-background-clip: transparent;
+    background-clip: text;
+}
+/* フッターリミッター */
+.FooterLimiter{
+    /* z-index: 95; */
+    cursor: pointer;
+    pointer-events: none;
+    border-radius: 50%;
+    border-width: 1.8px;
+    border-style: solid;
+    border-color: white;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .3s;
+}
+.FooterLimiterActive{
+    pointer-events: all;
+    z-index: 95;
+    opacity: 0.6;
+    transition: .3s;
+    transition-delay: .3s;
+}
+/* フッターアウトプット */
+.FooterOutput{
+    /* z-index: 0; */
+    border-radius: 10%;
+    border-width: 1.8px;
+    border-style: solid;
+    border-color: white;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+}
+.FooterOutputActive{
+    z-index: 95;
+    opacity: 0.6;
+    transition: .3s;
+    transition-delay: .2s;
+}
+/* フッタークローズ */
+.FooterClose{
+    /* z-index: 0; */
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .1s;
+}
+.FooterCloseActive{
+    pointer-events: all;
+    z-index: 95;
+    opacity: 0.6;
+    transition: .3s;
+    transition-delay: .1s;
+}
